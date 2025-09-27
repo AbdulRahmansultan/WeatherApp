@@ -1,0 +1,240 @@
+.Weather-page{
+    background-color: #e0f7fa;
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    box-shadow:  0 0 10px;
+    border-radius: 15px ;
+    border: 10px;
+}
+
+.weather-title{
+    color: #00796b;
+    margin-bottom: 20px;
+
+}
+
+.weather-form{
+    
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.weather-input{
+    flex: 1;
+    padding: 10px;
+    font-size: 17px;
+    border:  2px solid #00796b;
+    border-radius: 5px;
+}
+.weather-btn{
+    padding: 10px 18px;
+    font-size: 17px;
+    background-color: #00796b;
+    border-radius: 5px;
+    color: #e0f7fa;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.weather-btn:hover{
+    background-color: #004d40;
+}
+
+.weather-error{
+    color: #cc0000;
+    background-color: rgb(251, 218, 218);
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-weight: bold;
+    
+}
+
+.weather-result {
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.weather-city {
+    color: #00695c;
+    margin-bottom: 8px;
+}
+.weather-desc, .weather-temp, .weather-humidity {
+    font-size: 17px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.weather-icon {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+@media (max-width: 500px) {
+    .weather-container{
+        padding: 10px;
+    }
+    .weather-form {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .weather-btn{
+        width: 100%;
+    }
+}
+
+
+
+/* ========== Register Page Styles ========== */
+.register-page{
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #d4f6ae;
+    box-shadow: 0 0 15px raga(0,0,0,0.8);
+    text-align: center;
+}
+
+.register-title{
+    color: #33691e;
+    margin-bottom: 20px;
+}
+.register-form{
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.register-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #33691e;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.register-btn {
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: #33691e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.register-btn:hover {
+    background-color: #1b5e20;
+}
+.register-message {
+    color: #33691e;
+    background-color: #e6ee9c;
+    border: 1px solid #33691e;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 500px){
+    .register-page{
+        padding: 10px;
+    }
+    .register-form{
+        gap:10px;
+    }
+    .register-btn{
+        width: 100%;
+    }
+}
+
+/* ========== Login Page Styles ========== */
+
+.login-page {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #e3f2fd;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.login-title {
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #1565c0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: #1565c0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.login-btn:hover {
+    background-color: #0d47a1;
+}
+
+.login-message {
+    color: #1565c0;
+    background-color: #bbdefb;
+    border: 1px solid #1565c0;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.auth-switch-message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.auth-switch-message a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.auth-switch-message a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+    .login-container {
+        padding: 10px;
+    }
+    .login-form {
+        gap: 8px;
+    }
+    .login-btn {
+        width: 100%;
+    }
+}
