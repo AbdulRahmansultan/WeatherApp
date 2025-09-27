@@ -6,7 +6,7 @@ from functools import wraps
 
 app = Flask(__name__)
 app.secret_key=''
-api_key = 'a3e1cb9df52a112d22730391976c94cc'
+api_key = 'APi_key'
 users = {
     'user1':{
         'password_hash':generate_password_hash("passwoed123"),
@@ -75,5 +75,6 @@ def login():
 
 if __name__=="__main__":
     app.run(debug=True)
+
 
 
